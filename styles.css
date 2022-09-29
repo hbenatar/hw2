@@ -1,0 +1,96 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #afd9e7;
+  font-family: 'Montserrat', sans-serif;
+  display: grid;
+  grid-template-rows: auto 70% auto;
+  font-size: 14px;
+}
+
+p {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #a62f2f;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #c88b85;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #c88b85;
+  letter-spacing: 5px;
+}
+
+#logo {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text-content {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+header {
+  box-shadow: 0 8px 10px 0px #a62f2f;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  grid-row: 1;
+}
+
+nav li{
+  list-style: none;
+  display:inline;
+  padding:20px;
+}
+
+nav a{
+  color: #a62f2f;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+nav a:hover {
+  color: #c88b85;
+}
+
+footer {
+  text-align: center;
+}
