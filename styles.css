@@ -106,12 +106,4 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-  
-  nav a{
-    color: #a62f2f;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
 }
